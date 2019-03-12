@@ -1,19 +1,3 @@
-function roll() {
-    var dice = prompt("How many sides are you rolling?");
-    console.log(dice);
-
-    function getRoll(max) {
-        return Math.floor(Math.random() * Math.floor(max)) + 1;
-    }
-    alert("You rolled a " + getRoll(dice));
-}
-
-// this function works
-// function roll() {
-//     var dice = prompt("How many sides are you rolling?");
-//     console.log(dice);
-// }
-
 function roll20() {
     var dice = 19;
     console.log(dice);
@@ -68,3 +52,19 @@ function roll6() {
     alert("You rolled a " + getRoll(dice));
     console.log(dice);
 }
+
+// function roll() {
+//     var dice = prompt("How many sides are you rolling?");
+//     console.log(dice);
+
+//     function getRoll(max) {
+//         return Math.floor(Math.random() * Math.floor(max)) + 1;
+//     }
+//     alert("You rolled a " + getRoll(dice));
+// }
+
+// this function works
+// function roll() {
+//     var dice = prompt("How many sides are you rolling?");
+//     console.log(dice);
+// }
