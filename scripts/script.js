@@ -33,6 +33,7 @@ function roll12() {
         return Math.floor(Math.random() * Math.floor(max)) + 1;
     }
     alert("You rolled a " + getRoll(dice));
+    console.log(dice);
 }
 
 function roll10() {
@@ -43,6 +44,7 @@ function roll10() {
         return Math.floor(Math.random() * Math.floor(max)) + 1;
     }
     alert("You rolled a " + getRoll(dice));
+    console.log(dice);
 }
 
 function roll8() {
@@ -53,6 +55,7 @@ function roll8() {
         return Math.floor(Math.random() * Math.floor(max)) + 1;
     }
     alert("You rolled a " + getRoll(dice));
+    console.log(dice);
 }
 
 function roll6() {
@@ -62,6 +65,6 @@ function roll6() {
     function getRoll(max) {
         return Math.floor(Math.random() * Math.floor(max)) + 1;
     }
-    console.log(dice);
     alert("You rolled a " + getRoll(dice));
+    console.log(dice);
 }
