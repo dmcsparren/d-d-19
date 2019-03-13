@@ -1,5 +1,5 @@
 function roll20() {
-    var dice = 19;
+    var dice = 20;
     console.log(dice);
 
     function getRoll(max) {
@@ -10,7 +10,7 @@ function roll20() {
 }
 
 function roll12() {
-    var dice = 11;
+    var dice = 12;
     console.log(dice);
 
     function getRoll(max) {
@@ -21,7 +21,7 @@ function roll12() {
 }
 
 function roll10() {
-    var dice = 9;
+    var dice = 10;
     console.log(dice);
 
     function getRoll(max) {
@@ -32,7 +32,7 @@ function roll10() {
 }
 
 function roll8() {
-    var dice = 7;
+    var dice = 8;
     console.log(dice);
 
     function getRoll(max) {
@@ -43,7 +43,7 @@ function roll8() {
 }
 
 function roll6() {
-    var dice = 5;
+    var dice = 6;
     console.log(dice);
 
     function getRoll(max) {
