@@ -53,6 +53,17 @@ function roll6() {
     console.log(dice);
 }
 
+function roll4() {
+    var dice = 4;
+    console.log(dice);
+
+    function getRoll(max) {
+        return Math.floor(Math.random() * Math.floor(max)) + 1;
+    }
+    alert("You rolled a " + getRoll(dice));
+    console.log(dice);
+}
+
 // function roll() {
 //     var dice = prompt("How many sides are you rolling?");
 //     console.log(dice);
